@@ -1,10 +1,6 @@
 <?php 
 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "tienda_virtual";
-
+	include "DB_config.php";
 
 
 	$user=json_decode(file_get_contents('php://input'));  //get user from 
