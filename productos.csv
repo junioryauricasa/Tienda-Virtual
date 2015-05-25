@@ -1,0 +1,4 @@
+productos_id,codigo,nombre,descripcion,cantidad_disponible,precio,imagen_url
+1,P01,"Chocolates X","Caja con 10 unidades",15,5000,img/chocolate.jpg
+2,L01,Gorra,"Gorra con bandera de CR",20,9500,img/gorra.jpg
+3,M01,Café,"Bolsa de café de 200 gr",19,5400,img/cafe.jpg
