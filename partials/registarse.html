@@ -51,14 +51,7 @@
                     <li>
                         <a href="http://esencialcostarica.com/" target="_blank">esencial COSTA RICA</a>
                     </li>
-                    <li>
-                        <a href="">Ver carrito de compras</a>
-                    </li>
-                    <li>
-                    	<!-- <a href="" ng-click="logout()">Logout</a> -->
-                        <a href="" ng-click="logout()">Cerrar Sesión</a>
-                    </li>
-                </ul>
+                   </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -70,9 +63,10 @@
 
         <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
-            <h1>¡Bienvenido(a)!</h1>
-            <p>Seleeccione los productos de su interés utilizando el botón de 'Agregar al carrito de compras!'.</p>
-            <p>Puede ver el estado de su carrito de compras al presionar el link en la barra superior: Ver carrito de compras.</p>
+            <h1>Registro</h1>
+            <p>Para acceder a nuestra tienda virtual debe estar registrado. <br>
+                Ingrese sus datos personales para completar su registro.</p>
+            
             <p><a class="btn btn-primary btn-large">Ver más información</a>
             </p>
         </header>
@@ -82,42 +76,13 @@
         <!-- Title -->
         <div class="row">
             <div class="col-lg-12">
-                <h3>Productos recientes</h3>
+                <h3>Datos personales</h3>
             </div>
         </div>
         <!-- /.row -->
 
 
-            <!--     seccion de ayuda , borrar al final               
-                        <tr ng-repeat="producto in productos ">
-                            <td>{{producto.productos_id}}</td>
-                            <td>{{producto.codigo}}</td>
-                            <td>{{producto.nombre}}</td>
-                            <td>{{producto.descripcion}}</td>
-                            <td>{{producto.cantidad_disponible}}</td>
-                            <td>{{producto.precio}}</td>                    
-                        </tr> 
- 
-            -->
-        <section id="ver-productos-disponibles" >
-            <div ng-controller="getDatos" class="row text-center">
-                    <div class="col-md-3 col-sm-6 hero-feature" ng-repeat="producto in productos ">
-                        <div class="thumbnail">
-                            <img src={{producto.imagenUrl}} alt="">
-                            <div class="caption">
-                                <h3>{{producto.nombre}}</h3>
-                                <p>{{producto.descripcion}}</p>
-                                <p>Precio:{{producto.precio}} Colones</p>
-                                <p>
-                                    <a href="" class="btn btn-primary">Agregar al carrito de compras!</a> 
-                          <!--     <a class="btn btn-default">Precio: <br>{{producto.precio}}</a> -->
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </section>
-        <!-- /.row -->
+
 
        
 
